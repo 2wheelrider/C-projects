@@ -1,0 +1,11 @@
+#include <stdio.h> /* Einai vivliothiki pou kalei diafores sunartiseis prokeimenou na mporoume
+                     na tis xrhsimopoihsoume sto kwdika mas , "AFAIRESH" */
+
+int main ()
+{
+   
+    char name [] = "Mixalis ";
+    printf("hello,World\n");
+    printf("To onoma mou einai: %s\n",name);
+    return 0;
+}
