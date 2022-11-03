@@ -1,0 +1,12 @@
+#include <stdio.h> /* Einai vivliothiki pou kalei diafores sunartiseis prokeimenou na mporoume
+                     na tis xrhsimopoihsoume sto kwdika mas , "AFAIRESH" */
+
+int main ()
+{
+   int age = 30;
+   char name [] = "Mixalis Tsoumenis";
+   printf("Age %d\n",age);
+   printf("Onomatepwnumo %s\n",name);
+   
+    return 0;
+}
