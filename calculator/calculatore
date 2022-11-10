@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+void logo()
+{
+	printf("*=================*\n");
+	printf("*  akmi calculator  *\n");
+	printf("created by 2wheelrider*\n");
+	
+	}
+
+
+int main(){
+	
+	logo();
+	
+	float valueOne,valueTwo,answer;
+	char op;
+	
+	printf("enter your numbers and opertor(ex.1+2)");
+	scanf("%f,%f,%f",valueOne,valueTwo,answer);
+	if(op == '+')
+	{
+		answer = valueOne +valueTwo;
+		
+	}else if (op == '-')
+	{
+		answer = valueOne -valueTwo;
+	}
+	else if (op =='*')
+	{
+		answer =valueOne * valueTwo;
+	}
+	else if(op =='/')
+	{
+		answer =valueOne / valueTwo;
+	}else
+	{
+		printf("error");
+		exit(0);
+	}
+}
