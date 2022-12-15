@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+ {
+    
+    int list[5];
+    int i;
+    int prod;
+    prod=1;
+      for(i=0;i<5;++i)
+    {    
+     printf("Enter Num: ");
+     scanf("%d",&list[i]);
+     prod=prod*list[i];
+    }
+     printf("Prod is:%d",prod);
+     return 0;
+  } 
