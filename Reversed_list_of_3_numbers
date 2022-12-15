@@ -1,0 +1,19 @@
+include <stdio.h>
+#define size 3
+
+int main(){
+	
+        int list[size];
+	list[0]=1;
+	list[1]=2;
+	list[2]=3;
+	int i;
+	for(i=0;i<size;++i)
+	{
+		printf(	"Enter num:");
+		scanf("%d",&list[i]);
+	}
+	
+	printf("%d,%d,%d",list[2],list[1],list[0]);
+	
+	}
